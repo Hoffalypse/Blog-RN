@@ -23,7 +23,7 @@ ShowScreen.navigationOptions = ({ navigation }) => {
     headerRight: () => (
       <TouchableOpacity
         onPress={() =>
-          navigation.navigate("Edit", { id: navigation.getparam("id") })
+          navigation.navigate("Edit", { id: navigation.getParam("id") })
         }
         style={{ flexDirection: "row" }}
       >
