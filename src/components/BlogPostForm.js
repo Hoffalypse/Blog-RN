@@ -23,7 +23,7 @@ const BlogPostForm = ({ onSubmit, initialValues }) => {
     </View>
   );
 };
-
+//blog post 
 BlogPostForm.defaultProps = {
   initialValues: {
     title: '',
